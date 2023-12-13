@@ -4,7 +4,7 @@
         "runtime": "18.x"
       }
     },
-    "routes": [
+    "rewrites": [
       {
         "src": "/(.*)",
         "dest": "/api/server.js"
